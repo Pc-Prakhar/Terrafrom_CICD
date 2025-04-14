@@ -1,10 +1,10 @@
 provider "aws" {
-region=us-east-1
+
   
 }
 
 resource "aws_instance" "dev" {
-    ami = "ami-00a929b66ed6e0de6"
+    ami = "ami-002f6e91abff6eb96"
     instance_type = "t2.micro"
     tags = {
       Name = "Devjenkins-1"
